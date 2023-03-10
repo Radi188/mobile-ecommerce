@@ -1,13 +1,16 @@
 {
+  "name": "Aj Alimentaire",
+  "displayName": "France Aj Group",
   "expo": {
-    "name": "aj_alimentaire",
-    "slug": "aj_alimentaire",
+    "name": "Aj Alimentaire",
+    "slug": "aj-ajalimentaire",
+    "description": "Aj Alimentaire is the app where people can contact us for more information about Wholesale product in our app.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Image/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Image/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,8 +24,10 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.Franceajalimentaire",
+      "version": "1",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Image/logo.png",
         "backgroundColor": "#FFFFFF"
       }
     },
